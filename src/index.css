@@ -1,13 +1,68 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(../public/greenandblack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box !important;
+    flex-wrap: nowrap !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+    box-sizing: border-box !important;
+    flex-wrap: nowrap !important;
+}
+
+div {
+    box-sizing: border-box !important;
+    flex-wrap: nowrap !important;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 800 !important;
+    font-size: 90px !important;
+}
+
+h2 {
+    font-weight: 400 !important;
+    font-size: 45px !important;
+}
+
+h3 {
+    font-weight: 400 !important;
+    font-size: 35px !important;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons {
+    font-size: 30px;
+    color: #004017;
+    padding-left: 1080px;
+    text-align: end;
+}
+
+li {
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+div>p>.pFooter {
+    color: red;
+    font-size: 14px !important;
 }

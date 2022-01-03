@@ -1,22 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
+import "./index.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import MyNavBar from "./components/MyNavbar";
+import Footer from "./components/Footer"
+import Home from "./components/Home"
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <MyNavBar />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React{" "}
-        </a>{" "}
-      </header>{" "}
-    </div>
+      <div className="">
+      <BrowserRouter>
+    <MyNavBar />
+    <Home />
+    <Routes>
+        <Route exact path="/"> </Route>
+        <Route exact path="/:id"></Route>
+        <Route exact path="*">Page not found!</Route>
+    </Routes>
+    <Footer />
+    </BrowserRouter>
+   </div>
   );
 }
 
