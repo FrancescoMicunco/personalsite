@@ -5,18 +5,18 @@ const Footer =()=>{
     return (
         <div style={{backgroundColor:"white"}}>
         <Container>
-            <Row className="d-flex">
-                <Col xs={12} md={4}><h2 style={{color:"black"}}>Contacts</h2>
+            <Row className="d-flex pt-3">
+                <Col xs={12} md={4}><h3 style={{color:"black"}}>Contacts</h3>
                 <ul>
                     <li >Via G. La Pira,23 70126-Bari Italia</li>
                     <li>P.Iva 05736870725 </li>
                     <li><TiMail style={{fontSize:"24px"}}/> francescomicunco@gmail.com</li>
                 </ul>
                 </Col>
-                <Col xs={12} md={4}><h2 style={{color:"black"}}>Link</h2>
+                <Col xs={12} md={4}><h3 style={{color:"black"}}>Link</h3>
                 <p style={{fontSize:"14px"}}>Privacy Policy</p>
                 <p style={{fontSize:"14px"}}>Cookies Consent</p></Col>
-                <Col xs={12} md={4}><h2 style={{color:"black"}}>Social</h2>
+                <Col xs={12} md={4}><h3 style={{color:"black"}}>Social</h3>
                
             <TiSocialFacebookCircular style={{fontSize:"24px"}}/>
             <TiSocialLinkedinCircular style={{fontSize:"24px"}}/>

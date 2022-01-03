@@ -5,7 +5,7 @@ import { TiSocialFacebookCircular, TiSocialLinkedinCircular, TiSocialGithubCircu
 const MyNavBar = () => {
   return (<Navbar bg="light" expand="lg">
 <Link to="/">
-  <Navbar.Brand ><img src="./logo.png" width={70} alt="" /></Navbar.Brand>
+  <Navbar.Brand ><img src="./logo.png" width={70} alt="Logo MicoDigi"/></Navbar.Brand>
   </Link>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -17,7 +17,19 @@ const MyNavBar = () => {
             <div className='icons'>
             <TiSocialFacebookCircular />
             <TiSocialLinkedinCircular />
-            <TiSocialGithubCircular /></div>
+            <TiSocialGithubCircular />
+            <img src="https://flagcdn.com/w20/gb.png"
+                 srcset="https://flagcdn.com/w40/gb.png 2x"
+                 width="20"
+                 height="15"
+                 alt="Regno Unito"></img>
+                 <img
+                    src="https://flagcdn.com/w20/it.png"
+                    srcset="https://flagcdn.com/w40/it.png 2x"
+                    width="20"
+                    height="15"
+                    alt="Italia"></img>
+                    </div>
         </Nav>
     </Navbar.Collapse>
 </Navbar>);
