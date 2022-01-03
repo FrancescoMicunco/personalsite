@@ -61,8 +61,3 @@ li {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
 }
-
-div>p>.pFooter {
-    color: red;
-    font-size: 14px !important;
-}
