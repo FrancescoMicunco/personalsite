@@ -6,9 +6,11 @@ const Body = () =>{
         <>
         <Container>
             <Row>
-                <Col xs={12} md={7}>
+                <Col xs={12} md={4}>
                     <div>
-                        <img src="./programming.mp4" alt="" />
+                        <video  width="480" height="500" autoPlay loop>
+                        <source src="./programming.mp4" type="video/mp4" />
+                        </video>
                     </div>
                 </Col>
                 <Col xs={12} md={5}>
