@@ -12,10 +12,10 @@ return (
                 <div className="d-block">
                     
                     <h3 style={{marginBottom:"30px"}}>-- fullstack dev -- </h3>
-                    <p style={{color:"white"}}>Sito internet veloce, responsivo e moderno</p>
+                    <p style={{color:"white"}}>Hai bisogno di un sito internet veloce, responsivo e moderno?</p>
                     <p style={{color:"white"}}>Realizzo il tuo e-commerce personalizzato e versatile</p>
-                    <p style={{color:"white"}}>Backend sicuro, affidabile e solido, con l'impiego delle più moderne tecnologie</p>
-                    <p>Api personalizzate, codice chiaro e ben commentato.</p>
+                    <p style={{color:"white"}}>Ti serve un Backend sicuro, affidabile e solido, con l'impiego delle più moderne tecnologie?</p>
+                    <p style={{color:"white"}}>Hai bisogno di Api personalizzate, con codice chiaro e ben commentato?</p>
                  </div>   
                     <div className="mt-xs-3 mt-md-5">
                     <p style={{color:"white"}}><SiHtml5 style={{fontSize:"40px"}}/> <SiCss3 style={{fontSize:"40px"}}/> <SiJavascript style={{fontSize:"40px"}}/> <FaNodeJs style={{fontSize:"40px"}}/> <SiPostgresql style={{fontSize:"40px"}}/> <SiGithub style={{fontSize:"40px"}}/></p>
