@@ -73,7 +73,7 @@ function App() {
             <p className="text-light">Hai bisogno di un sito internet veloce, responsivo e moderno?</p>
             <p className="text-light">Vuoi realizzare il tuo e-commerce personalizzato e versatile?</p>
             <p className="text-light">Ti serve un Backend sicuro, affidabile e solido, con l'impiego delle più moderne tecnologie?</p>
-            <p className="text-light">Hai bisogno di Api personalizzate, con codice chiaro e ben commentato?</p>
+            <p className="text-light">Sei un front-end e hai bisogno di Api personalizzate, con codice chiaro e ben commentato?</p>
             <div className="mt-sm-3 mt-md-5">
               <p className="text-light">
 
