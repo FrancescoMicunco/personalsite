@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 const Body = () =>{
     return (
         <>
-        <Container className="fluid">
+        <Container className="fluid subHero">
             <Row>
                 <Col xs={12} md={4}>
                     <div>
@@ -21,9 +21,6 @@ const Body = () =>{
                     </div>
                 </Col>
             </Row>
-
-
-
 </Container>
 
 </>
