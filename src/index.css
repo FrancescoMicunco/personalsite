@@ -144,6 +144,9 @@ span {
         padding-left: 5%;
         margin-top: 25%;
     }
+    .sideJumbo {
+        display: none;
+    }
     .iconJ {
         font-size: 20px;
     }
