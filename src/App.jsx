@@ -8,7 +8,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGithub, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-// import Tooltip from '@mui/material/Tooltip';
+
 import ReactTooltip from "react-tooltip";
 
 function App() {
@@ -24,10 +24,10 @@ function App() {
               <Link to="/">
                 <Navbar.Brand ><img src="./logo.png" width={30} alt="Logo MicoDigi" /></Navbar.Brand>
               </Link>
-
-              <TiSocialFacebookCircular className="d-sm-none d-md-inline-block my-md-auto" style={{ fontSize: "1.2rem", color: "gray", marginRight: "0.5rem" }} />
-              <TiSocialLinkedinCircular className="d-sm-none d-md-block my-md-auto" style={{ fontSize: "1.2rem", color: "gray", marginRight: "0.5rem" }} />
-              <TiSocialGithubCircular className="d-sm-none d-md-block my-md-auto" style={{ fontSize: "1.2rem", color: "gray", marginRight: "0.5rem" }} />
+<div className="d-flex" style={{alignItems:"center"}}>
+              <a href="https://www.facebook.com/francesco.micunco/"> <TiSocialFacebookCircular className="d-sm-none d-md-block my-md-auto" style={{ fontSize: "1.4rem", color: "gray", marginRight: "0.5rem" }} /></a>
+              <a  href="http://www.linkedin.com/in/micunco-francesco-20778819" target="_blank"><TiSocialLinkedinCircular className="d-sm-none d-md-block my-md-auto" style={{ fontSize: "1.4rem", color: "gray", marginRight: "0.5rem" }} /></a>
+              <a href="https://github.com/FrancescoMicunco" target="_blank"> <TiSocialGithubCircular className="d-sm-none d-md-block my-md-auto" style={{ fontSize: "1.4rem", color: "gray", marginRight: "0.5rem" }} /></a>
               <img src="https://flagcdn.com/w20/gb.png"
                 srcset="https://flagcdn.com/w40/gb.png 2x"
                 width="20"
@@ -39,7 +39,7 @@ function App() {
                 width="20"
                 height="15"
                 alt="Italia" className="my-md-auto"></img>
-
+</div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
