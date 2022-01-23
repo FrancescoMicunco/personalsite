@@ -8,12 +8,8 @@ import Testimonial from './Pages/Testimonial'
 import Contact from './Pages/Contact'
 import MyNavbar from './components/MyNavbar'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-
-import { TiSocialFacebookCircular, TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti";
-
 import { SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGithub, SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-
 import ReactTooltip from "react-tooltip";
 
 function App() {

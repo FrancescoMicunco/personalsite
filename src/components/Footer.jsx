@@ -10,8 +10,8 @@ const Footer =()=>{
         <Container>
             <Row className="d-flex pt-3">
                 <Col xs={12} md={4}><h3 style={{color:"black"}}>Contacts</h3>
-                <ul>
-                    <li >Via G. La Pira,23 70126-Bari Italia</li>
+                <ul style={{listStyleType:"none"}}>
+                    <li >Como - Italia</li>
                     <li>P.Iva 05736870725 </li>
                     <li><TiMail style={{fontSize:"24px"}}/> francescomicunco@gmail.com</li>
                     <li><GiVibratingSmartphone style={{fontSize:"24px"}}/>+39 350.189.1365</li>
