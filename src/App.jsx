@@ -1,3 +1,4 @@
+import React from "react";
 import "./index.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer"
@@ -7,28 +8,21 @@ import Services from './Pages/Services'
 import Testimonial from './Pages/Testimonial'
 import Contact from './Pages/Contact'
 import MyNavbar from './components/MyNavbar'
-import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import { SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGithub, SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import ReactTooltip from "react-tooltip";
+
+
 
 function App() {
   return (
-
-    <BrowserRouter>
+<>
+    
       <MyNavbar />
-      <Routes>
-        <Route path="/" exact component={<Home />}/>
-        <Route  path="/" exact component={<About />}/>
-        <Route  path="/" exact component={<Services />}/>
-        <Route  path="/" exact component={<Testimonial />}/>
-        <Route  path="/" exact component={<Contact />}/>
-        <Route  path="/english"/>
-        <Route  path="*">Page not found!</Route>
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-
+      <Home />
+     <About />
+     <Services />
+     <Testimonial />
+     <Contact />
+    <Footer />
+</>
   );
 }
 

@@ -1,0 +1,12 @@
+a {
+    color: white;
+    margin-right: 0.5rem;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: rgba(128, 128, 128, 0.411);
+}
