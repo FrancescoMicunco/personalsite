@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Experience from '../components/experience'
+import '../Style/about.css'
 
 const About = () => {
 
@@ -20,10 +21,8 @@ const About = () => {
 
                     <p>Sviluppo codice con le più moderne tecnologie, che rendono il progetto altamente efficace, veloce, e scalabile. Ogni componente viene testato e validato, per ridurre al massimo il rischio di eventuali malfunzionamenti.  </p>
                     <div style={{ border: "solid 0.5px gray" }}></div>
-                    
+                   
                         <Experience />
-
-
                 </Col>
             </Row>
 

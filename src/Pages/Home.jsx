@@ -11,14 +11,14 @@ const Home = () =>{
     return (
         <Container fluid>
 <Row className="justify-content-center" style={{backgroundColor:`black`}}>
-    <Col xs={12} md={7} >
-        <h2 style={{color:"white"}}>fullStack webDev</h2>
-        <h1 style={{color:"yellow"}}>MICODIGI</h1>
-        <h4 style={{color:"white"}}>Ti serve un Back-end sicuro, affidabile e solido, 
+    <Col xs={12} md={7} className="pt-md-5">
+        <h2 style={{color:"white", paddingTop:"3rem", marginLeft:"3rem"}}>fullStack webDev</h2>
+        <h1 style={{color:"yellow", marginLeft:"3rem", fontSize:"8rem"}}>MICODIGI</h1>
+        <h4 style={{color:"white", marginLeft:"3rem", marginBottom:"1.5rem"}}>Ti serve un Back-end sicuro, affidabile e solido, 
 con l'impiego delle più moderne tecnologie?</h4>
-    <h4 style={{color:"white"}}>Sei un front-end e hai bisogno di Api personalizzate, 
+    <h4 style={{color:"white", marginLeft:"3rem", marginBottom:"1.5rem"}}>Sei un front-end e hai bisogno di Api personalizzate, 
 con codice chiaro e ben commentato?</h4>
-    <h4 style={{color:"white"}}>Hai bisogno di un sito internet veloce, 
+    <h4 style={{color:"white", marginLeft:"3rem", marginBottom:"1.5rem"}}>Hai bisogno di un sito internet veloce, 
 responsivo e moderno?</h4>
 {/* <div><p className="text-light">
 

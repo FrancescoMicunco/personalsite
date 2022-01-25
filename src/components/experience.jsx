@@ -4,7 +4,7 @@ import {Col} from 'react-bootstrap'
 const Experience = () =>{
     return (
         <>
-        <Col xs={12} className="d-flex justify-content-around">
+        <Col xs={12} className="d-flex justify-content-between">
                             <h3>Javascript</h3>
                             <h3>80%</h3>
                         </Col>
@@ -13,7 +13,7 @@ const Experience = () =>{
                                 <div style={{ border: "solid 10px yellow", width: "80%" }}></div>
                             </div>
                         </Col>
-                        <Col xs={12} className="d-flex justify-content-around">
+                        <Col xs={12} className="d-flex justify-content-between">
                             <h3>React</h3>
                             <h3>80%</h3>
                         </Col>
@@ -22,8 +22,8 @@ const Experience = () =>{
                                 <div style={{ border: "solid 10px yellow", width: "90%" }}></div>
                             </div>
                         </Col>
-                        <Col xs={12} className="d-flex justify-content-around">
-                            <h3>nodeJs</h3>
+                        <Col xs={12} className="d-flex justify-content-between">
+                            <h3>NodeJs</h3>
                             <h3>80%</h3>
                         </Col>
                         <Col xs={12}>
@@ -31,7 +31,7 @@ const Experience = () =>{
                                 <div style={{ border: "solid 10px yellow", width: "80%" }}></div>
                             </div>
                         </Col>
-                        <Col xs={12} className="d-flex justify-content-around">
+                        <Col xs={12} className="d-flex justify-content-between">
                             <h3>MongoDb & PostgreSQL</h3>
                             <h3>70%</h3>
                         </Col>
